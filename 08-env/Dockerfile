@@ -1,5 +1,6 @@
 FROM        docker.io/redhat/ubi9:latest
-ENV         REDHAT_VERSION=9
+ARG         REDHAT_VERSION
+ENV         REDHAT_VERSION=$REDHAT_VERSION
 ENTRYPOINT  ["env"]
 
 
