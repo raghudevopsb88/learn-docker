@@ -1,1 +1,1 @@
-FROM        docker.io/library/redhat/ubi9:latest
+FROM        docker.io/redhat/ubi9:latest
